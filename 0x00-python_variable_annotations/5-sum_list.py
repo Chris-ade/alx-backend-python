@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-5-sum_list: Module
+sum list : a module
 """
 
 
-def sum_list(input_list: List[float]) -> float:
+def sum_list(input_list: list[float]) -> float:
     """
-    Takes a list input_list of floats as arg. and returns their sum as a float.
+    sum a list of float
     """
     sum: float = 0
     i = 0
