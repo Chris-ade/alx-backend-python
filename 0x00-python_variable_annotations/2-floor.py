@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-2-floor: Takes a float n as argument and returns the floor of the float.
+2-floor: Takes a float and return the floor.
 """
 
 
