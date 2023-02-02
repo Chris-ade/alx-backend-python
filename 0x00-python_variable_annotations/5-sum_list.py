@@ -4,13 +4,8 @@
 """
 
 
-def sum_list(input_list: list[float]) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
-    sum a list of float
+    Takes a list input_list of floats as argument and returns their sum as a float.
     """
-    sum: float = 0
-    i = 0
-    for i in range(len(input_list)):
-        sum += input_list[i]
-
-    return sum
+    return sum(input_list)
