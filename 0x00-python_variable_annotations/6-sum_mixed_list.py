@@ -1,12 +1,17 @@
 #!/usr/bin/env python3
 """
-6-sum_mixed_list : Module
+sums a mixed list module
 """
-from typing import List, Union
+from typing import Union, List
 
 
 def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
-    """ 
-    Returns mxd_lst sum as a float.
     """
-    return sum(mxd_lst)
+    sum a list of float
+    """
+    sum: float = 0
+    i = 0
+    for i in range(len(mxd_lst)):
+        sum += mxd_lst[i]
+
+    return sum
