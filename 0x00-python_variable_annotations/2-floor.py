@@ -2,6 +2,7 @@
 """
 2-floor: Takes a float and return the floor.
 """
+import math
 
 
 def floor(n: float) -> int:
