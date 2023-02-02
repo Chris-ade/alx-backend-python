@@ -4,7 +4,7 @@
 """
 
 
-def sum_list(input_list: List[float]) -> float:
+def sum_list(input_list: list[float]) -> float:
     """
     Takes the input_list arg and returns their sum as a float.
     """
