@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-6-sum_mixed_list: Module
+6-sum_mixed_list : Module
 """
 from typing import List, Union
 
