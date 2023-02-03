@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 """
 Module for type checking
 """
@@ -7,7 +6,7 @@ from typing import Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
-    """ Type checking """
+    """ Type checking function """
     zoomed_in: Tuple = [
         item for item in lst
         for i in range(factor)
