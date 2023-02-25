@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""
-Parameterize a unit test
-"""
-
-
+""" Parameterize a unit test """
 import unittest
 from parameterized import parameterized
 from utils import access_nested_map
@@ -12,6 +8,7 @@ from utils import access_nested_map
 class TestAccessNestedMap(unittest.TestCase):
     """Test access_nested_map function."""
 
+    """ Test the function for following inputs """
     @parameterized.expand([
         ({"a": 1}, ("a",), 1),
         ({"a": {"b": 2}}, ("a",), {"b": 2}),
@@ -21,6 +18,7 @@ class TestAccessNestedMap(unittest.TestCase):
         """Test that access_nested_map returns the expected result."""
         self.assertEqual(access_nested_map(nested_map, path), expected_output)
 
+    """  Test that a KeyError is raised for the following inputs """
     @parameterized.expand([
         ({}, ("a",)),
         ({"a": 1}, ("a", "b"))
