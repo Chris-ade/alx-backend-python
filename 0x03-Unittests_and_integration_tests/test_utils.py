@@ -8,6 +8,7 @@ import unittest
 from parameterized import parameterized
 from utils import access_nested_map
 
+
 class TestAccessNestedMap(unittest.TestCase):
     """Test access_nested_map function."""
 
