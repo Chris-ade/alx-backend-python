@@ -7,7 +7,7 @@ from utils import access_nested_map, get_json, memoize
 
 
 class TestAccessNestedMap(unittest.TestCase):
-    """ test case classe """
+    """ test case class """
 
     """ to test the function for following inputs """
     @parameterized.expand([
